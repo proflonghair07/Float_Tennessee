@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'floattn.apps.FloattnConfig',
 
     # 3rd party
-    'rest_framework'
+    'rest_framework',
     'corsheaders',
 ]
 
