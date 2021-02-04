@@ -7,6 +7,7 @@ def index(request):
 
 
 def users(request):
+    print("fartie-doodoo")
     data = {
         "user": "fake user data"
     }
