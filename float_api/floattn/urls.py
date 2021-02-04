@@ -7,4 +7,5 @@ urlpatterns = [
     # path(r'login/', views.Login.as_view(), name='login'),
     # path(r'home/', views.Home.as_view(), name='home'),
     # path(r'location/<str:name>/', views.Location.as_view(), name='location'),
+    path(r'users/', views.users, name='logout'),
 ]
